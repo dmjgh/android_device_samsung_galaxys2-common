@@ -160,6 +160,7 @@ BOARD_HAS_NO_SELECT_BUTTON := true
 BOARD_SUPPRESS_EMMC_WIPE := true
 TARGET_RECOVERY_FSTAB := device/samsung/galaxys2-common/rootdir/fstab.smdk4210
 RECOVERY_FSTAB_VERSION := 2
+BOARD_RECOVERY_SWIPE := true
 
 # Device specific headers
 TARGET_SPECIFIC_HEADER_PATH := device/samsung/galaxys2-common/include
